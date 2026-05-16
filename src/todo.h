@@ -8,6 +8,7 @@
 #include <string.h>
 #include <stdint.h>
 #include <assert.h>
+#include <stdbool.h>
 
 typedef int8_t i8;
 typedef uint8_t u8;
@@ -17,4 +18,9 @@ typedef int32_t i32;
 typedef uint32_t u32;
 typedef int64_t i64;
 typedef uint64_t u64;
+
+// commands that user can use
+void initList(void) {
+    // figure out how!
+}
 
