@@ -16,6 +16,8 @@ typedef struct item {
 typedef struct list {
     char    *name;
     Item    *items;
+    i16      size;
+    i16      capacity;
 } List;
 
 // initialize empty list
@@ -43,5 +45,8 @@ void add_item(List* list, Item* current) {
     if (list == NULL || current == NULL) {
         return;
     }
-
+    if (list->size >= list->capacity) {
+        return;
+    }
+    list->items[list->size] = *current;
 }
