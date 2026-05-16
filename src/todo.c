@@ -41,7 +41,7 @@ void add_item(List* list, Item* current) {
      * 1. check both ends pointers 2. check size and position of array 3. place item at end 4. increase size of array
      */
     if (list == NULL || current == NULL) {
-        fprintf(stderr, "Invalid list and/or list item. Exiting 2.\n");
-        exit(2);
+        return;
     }
+
 }
