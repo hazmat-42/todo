@@ -3,5 +3,5 @@ project(todo C)
 
 set(CMAKE_C_STANDARD 17)
 
-add_executable(todo main.c
-        todo.h)
+add_executable(todo src/main.c
+        src/todo.h)

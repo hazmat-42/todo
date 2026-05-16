@@ -6,7 +6,5 @@ int main(int argc, char *argv[]) {
         exit(1);
     }
 
-    i8 test = 5;
-    printf("Test: %d\n", test);
     return 0;
 }
