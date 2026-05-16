@@ -34,3 +34,8 @@ Item* create_item(char* name, u16 position, u8 priority, char* description, bool
     new_item->completed = completed;
     return new_item;
 }
+
+// add pending item onto list
+void add_item(List* list, Item* current) {
+    list->items = current;
+}
