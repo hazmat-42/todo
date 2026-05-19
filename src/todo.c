@@ -34,8 +34,3 @@ void add_item(List* list, Item* current) {
     }
     list->items[list->size] = *current;
 }
-void edit_item(Item* item) {
-    if (item == NULL) {
-        return;
-    }
-}
